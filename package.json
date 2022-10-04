@@ -1,0 +1,25 @@
+{
+  "name": "recon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js",
+    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "build": "cd client && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azariahgarrido/Recon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azariahgarrido/Recon/issues"
+  },
+  "homepage": "https://github.com/azariahgarrido/Recon#readme",
+  "devDependencies": {
+    "concurrently": "^7.4.0"
+  }
+}
